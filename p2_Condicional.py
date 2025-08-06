@@ -14,3 +14,17 @@ elif edad > 0:
     print("Eres menor de edad.")
 else:
     print("Edad no válida.")
+
+
+'Esta es otra forma usando los else separados de los if '
+
+if edad >= 18:
+    print("Eres mayor de edad.")
+else:
+    if edad > 0:
+        print("Eres menor de edad.")
+    else:
+        print("Edad no válida.")
+
+
+
