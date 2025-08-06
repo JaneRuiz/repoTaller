@@ -7,3 +7,4 @@ while numero != 0:
     numero = int(input("Escribe un número: "))
     print("Escribiste:",numero)
 print("Terminaste el ciclo.")
+
